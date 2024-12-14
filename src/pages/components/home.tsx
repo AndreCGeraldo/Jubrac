@@ -1,4 +1,4 @@
-const Hero = () => {
+const Home = () => {
   return (
     <section className="relative flex items-center justify-center h-screen text-white bg-black">
       {/* Imagem de fundo */}
@@ -26,4 +26,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

@@ -1,9 +1,9 @@
 import Footer from "@/pages/components/footer";
 import Header from "@/pages/components/header";
-import Hero from "@/pages/components/hero";
+import Hero from "@/pages/components/home";
 import QuemSomos from "@/pages/components/quemSomos";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-black text-white font-geist">
       {/* Header fixo no topo */}

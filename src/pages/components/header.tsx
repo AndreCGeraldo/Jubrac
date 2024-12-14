@@ -14,13 +14,13 @@ const Header = () => {
         <Link href="/" className="text-white hover:text-amber-400">
           HOME
         </Link>
-        <Link href="/passaporte" className="text-white hover:text-amber-400">
+        <Link href="#quemSomos" className="text-white hover:text-amber-400">
           QUEM SOMOS
         </Link>
-        <Link href="/checklist" className="text-white hover:text-amber-400">
+        <Link href="#cultos" className="text-white hover:text-amber-400">
           CULTOS
         </Link>
-        <Link href="/sobre" className="text-white hover:text-amber-400">
+        <Link href="#contato" className="text-white hover:text-amber-400">
           CONTATO
         </Link>
       </nav>

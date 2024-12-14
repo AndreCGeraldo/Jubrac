@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const QuemSomos = () => {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-between py-16 px-8 md:px-20 bg-black">
+    <section
+      id="quemSomos"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-between py-16 px-8 md:px-20 bg-black"
+    >
       {/* Descrição à esquerda */}
       <div className="md:w-1/2 w-full space-y-6 text-white">
         <h1

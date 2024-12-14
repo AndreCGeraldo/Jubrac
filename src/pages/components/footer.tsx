@@ -3,7 +3,7 @@ import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10 font-mono">
+    <footer id="contato" className="bg-black text-white py-10 font-mono">
       <div className="container mx-auto px-4">
         {/* Grid para navegação e localização */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
