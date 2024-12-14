@@ -1,3 +1,4 @@
+import Cultos from "@/pages/components/cultos";
 import Footer from "@/pages/components/footer";
 import Header from "@/pages/components/header";
 import Hero from "@/pages/components/home";
@@ -13,6 +14,7 @@ export default function Page() {
       <main className="flex-grow">
         <Hero />
         <QuemSomos />
+        <Cultos />
       </main>
 
       {/* Footer fixo na parte inferior */}
