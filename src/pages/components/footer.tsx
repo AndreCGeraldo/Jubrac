@@ -16,21 +16,21 @@ const Footer = () => {
               </Link>
               <br />
               <Link
-                href="/passaporte"
+                href="/#quemSomos"
                 className="text-gray-400 hover:text-amber-400"
               >
                 Quem Somos
               </Link>
               <br />
               <Link
-                href="/checklist"
+                href="/#cultos"
                 className="text-gray-400 hover:text-amber-400"
               >
                 Cultos
               </Link>
               <br />
               <Link
-                href="/sobre"
+                href="/#contato"
                 className="text-gray-400 hover:text-amber-400"
               >
                 Contato

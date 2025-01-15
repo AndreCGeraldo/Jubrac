@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import MusicVideo from "./music-video";
 
 const Cultos = () => {
   const photos = [
@@ -15,14 +16,14 @@ const Cultos = () => {
     <div id="cultos" className="min-h-screen bg-black text-white font-geist">
       {/* Cabeçalho com título e descrição */}
       <header className="py-6 px-8 text-center bg-orange-500">
-        <h1 className="text-4xl font-bold">Dias de Cultos da Jubrac</h1>
+        <h1 className="text-4xl font-bold">Dias de Cultos</h1>
         <p className="mt-4 text-lg">
           Venha participar dos nossos encontros! Confira os horários e se
           conecte conosco.
         </p>
       </header>
 
-      <main className="py-16 px-8 md:px-20 flex flex-col md:flex-row gap-12 items-start">
+      <main className="py-16 px-8 md:px-20 flex flex-col md:flex-row gap-12 md:items-start">
         {/* Seção de fotos com animações à esquerda */}
         <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-4">
           {photos.map((photo, index) => (
@@ -40,7 +41,7 @@ const Cultos = () => {
         </div>
 
         {/* Informações sobre os dias de culto à direita */}
-        <div className="flex-1 text-right">
+        <div className="flex-1 text-center md:text-right mx-auto">
           <h2 className="text-3xl font-semibold mb-6">Horários dos Cultos</h2>
           <ul className="space-y-4">
             <li>
@@ -49,8 +50,8 @@ const Cultos = () => {
             </li>
             <li>
               <span className="block text-xl font-bold">Sábado</span>
-              <p className="text-amber-400 ">
-                Culto da JUBRAC no 2º e 4º Sábado do mês - 20h
+              <p className="text-amber-400">
+                Culto da JUBRAC no 2º Sábado do mês - 20h
               </p>
             </li>
             <li>
@@ -60,6 +61,10 @@ const Cultos = () => {
           </ul>
         </div>
       </main>
+      {/* Vídeo Musical */}
+      <div className="mt-20 w-full max-w-screen-lg mx-auto">
+        <MusicVideo />
+      </div>
     </div>
   );
 };

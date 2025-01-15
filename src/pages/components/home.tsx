@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Home = () => {
   return (
     <section className="relative flex items-center justify-center h-screen text-white bg-black">
@@ -18,9 +20,11 @@ const Home = () => {
           de Deus. Venha fazer parte desse movimento e descubra como Deus pode
           transformar sua vida e a de outros ao seu redor!
         </p>
-        <button className="mt-8 px-8 py-3 bg-orange-500 text-white rounded-lg hover:bg-purple-700 transition transform hover:scale-105">
-          Saiba mais
-        </button>
+        <Link href="#quemSomos">
+          <button className="mt-8 px-8 py-3 bg-orange-500 text-white rounded-lg hover:bg-purple-700 transition transform hover:scale-105">
+            Saiba mais
+          </button>
+        </Link>
       </div>
     </section>
   );

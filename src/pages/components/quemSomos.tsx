@@ -9,12 +9,12 @@ const QuemSomos = () => {
       {/* Descrição à esquerda */}
       <div className="md:w-1/2 w-full space-y-6 text-white">
         <h1
-          className="text-5xl font-semibold"
+          className="text-5xl font-semibold bg-orange-500 text-center"
           style={{ fontFamily: "Monument, sans-serif", fontWeight: 600 }}
         >
           QUEM SOMOS
         </h1>
-        <p className="text-lg text-white justify">
+        <p className="text-lg text-white text-justify md:text-left">
           A Jubrac Pelotas é um movimento de jovens comprometidos em viver e
           proclamar o evangelho de Jesus Cristo. Nós acreditamos que cada jovem
           tem um papel fundamental na expansão do Reino de Deus, não apenas
@@ -24,7 +24,7 @@ const QuemSomos = () => {
           mais profundo com Deus.
         </p>
         <br />
-        <p className="text-lg text-white justify">
+        <p className="text-lg text-white text-justify md:text-left">
           Desde a nossa fundação, temos realizado eventos, encontros e
           atividades que proporcionam momentos de aprendizado, comunhão e
           crescimento espiritual. Nossa visão é ver uma geração de jovens
