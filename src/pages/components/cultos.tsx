@@ -13,7 +13,10 @@ const Cultos = () => {
   ];
 
   return (
-    <div id="cultos" className="min-h-screen bg-black text-white font-geist">
+    <div
+      id="cultos"
+      className="min-h-screen bg-black text-white font-geist pt-32"
+    >
       {/* Cabeçalho com título e descrição */}
       <header className="py-6 px-8 text-center bg-orange-500">
         <h1 className="text-4xl font-bold">Dias de Cultos</h1>

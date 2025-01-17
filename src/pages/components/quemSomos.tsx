@@ -4,7 +4,7 @@ const QuemSomos = () => {
   return (
     <section
       id="quemSomos"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-between py-16 px-8 md:px-20 bg-black"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-between py-16 pb-0 px-8 md:px-20 bg-black"
     >
       {/* Descrição à esquerda */}
       <div className="md:w-1/2 w-full space-y-6 text-white">

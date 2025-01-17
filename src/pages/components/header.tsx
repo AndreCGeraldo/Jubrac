@@ -16,8 +16,16 @@ const Header = () => {
       <div className="flex justify-between items-center py-4 px-6 lg:px-16">
         {/* Logo da Jubrac */}
         <div className="flex items-center">
-          <h2 className="text-lg font-bold">Jubrac</h2>
+          <h2 className="text-lg font-bold font-mono">Jubrac</h2>
         </div>
+        {/* Logo da Jubrac com imagem */}
+        {/* <div className="flex items-center">
+          <img
+            src="/logo2.png"
+            alt="Logo Jubrac"
+            className="max-h-20 h-auto rotate-10"
+          />
+        </div> */}
 
         {/* Botão de menu no mobile */}
         <button
