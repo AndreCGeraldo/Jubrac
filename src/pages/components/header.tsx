@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { useState } from "react";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

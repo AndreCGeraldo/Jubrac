@@ -1,7 +1,7 @@
+import Hero from "@/pages/components/home";
 import Cultos from "@/pages/components/cultos";
 import Footer from "@/pages/components/footer";
 import Header from "@/pages/components/header";
-import Hero from "@/pages/components/home";
 import QuemSomos from "@/pages/components/quemSomos";
 
 export default function Page() {
